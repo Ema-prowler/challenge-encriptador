@@ -168,6 +168,44 @@ main {
 
 /*estilo del contenedor del parrafo*/
 
-.contendor-parrafo {
+.contenedor-parrafo {
   position: absolute;
+  box-sizing: border-box;
+  top: 570px;
+  left: 40px;
+}
+
+/*estilo para el h3 del contenedor parrafo*/
+
+.contenedor-parrafo {
+  font-size: 24px;
+  font-weight: 700;
+  /*font-family: "inter", sans-serif;
+  se puede declarar la font de nuevo aqui por si existe alguna falla*/
+  text-align: center;
+  color: #343a40;
+}
+
+/*estilo para la etiqueta p del contenedor parrafo*/
+
+.contenedor-parrafo p {
+  /*font-family: "inter", sans-serif;
+    se puede declarar la font de nuevo aqui por si existe alguna falla*/
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #495057;
+  padding-top: 20px;
+}
+
+/*estilo para el contenedor resultado*/
+
+.contenedor-resultado {
+  position: absolute;
+  bottom: 410px;
+  width: 320px;
+  height: 450px;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 25px;
 }
