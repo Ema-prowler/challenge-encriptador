@@ -1,19 +1,26 @@
+/*"estilos por defecto"*/
 * {
   /*removiendo estilos por defecto*/
   margin: 0;
   padding: 0;
   font-family: "inter", sans-serif; /*fuente recomendada*/
 }
+
 /*estilo del body*/
+
 body {
   background-color: #f4f4fc; /*color de fondo para el body*/
 }
+
 /*estilo del header*/
+
 header {
   width: 100%;
   height: 70px;
 }
+
 /*estilo del logo*/
+
 .Logo {
   width: 100%;
   height: 50px;
@@ -22,10 +29,42 @@ header {
 }
 
 /*estilo del main*/
+
 main {
   position: absolute; /* Establece el posicionamiento absoluto del elemento */
   width: 100%;
   height: 90%;
   display: flex; /* Convierte el contenedor en un contenedor flexible */
   justify-content: space-between; /* Distribuye el espacio entre los elementos secundarios */
+}
+
+/*estiolo del contenedor caja-texto*/
+
+.contenedor-caja-texto {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  padding-left: 100px;
+  width: 1000px;
+  height: 600px;
+}
+
+/*estilo de caja-texto*/
+
+.caja-texto {
+  width: 80%;
+  height: 100%;
+  border: none;
+  background-color: #f4f4fc;
+  cursor: pointer;
+  color: #0a3871;
+  font-size: 32px;
+  font-weight: 400;
+  /*font-family: "inter", sans-serif;
+  se puede declarar la font de nuevo aqui por si existe alguna falla*/
+}
+
+/*estilo caja texto/placeholder*/
+
+.caja-texto::placeholder {
 }
