@@ -66,5 +66,26 @@ main {
 
 /*estilo caja texto/placeholder*/
 
-.caja-texto::placeholder {
+.caja-texto:placeholder {
+  color: #0a3871;
+}
+
+/*estilo del contenedor Alert*/
+
+.alerta {
+  position: absolute;
+  top: 750px;
+  left: 370px;
+  display: flex;
+  color: #495057;
+}
+
+/*estilo del contenedor de los botones*/
+
+.contenedor-botones {
+  position: absolute;
+  top: 800px;
+  height: 80px;
+  padding-left: 15%;
+  padding-top: 15px;
 }
