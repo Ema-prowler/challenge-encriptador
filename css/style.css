@@ -13,3 +13,19 @@ header {
   width: 100%;
   height: 70px;
 }
+/*estilo del logo*/
+.Logo {
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+/*estilo del main*/
+main {
+  position: absolute; /* Establece el posicionamiento absoluto del elemento */
+  width: 100%;
+  height: 90%;
+  display: flex; /* Convierte el contenedor en un contenedor flexible */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos secundarios */
+}
