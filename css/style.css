@@ -62,6 +62,8 @@ main {
   color: #0a3871;
   font-size: 32px;
   font-weight: 400;
+  resize: none; /*no permite que el usuario cambie el tamaño del textarea*/
+  outline: none; /*quitamos las lineas del textarea
   /*font-family: "inter", sans-serif;
   se puede declarar la font de nuevo aqui por si existe alguna falla*/
 }
@@ -80,6 +82,10 @@ main {
   left: 370px;
   display: flex;
   color: #495057;
+}
+
+.alerta p {
+  padding-left: 5px;
 }
 
 /*estilo del contenedor de los botones*/
