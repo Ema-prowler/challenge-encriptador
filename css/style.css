@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 /*"estilos por defecto"*/
 * {
   /*removiendo estilos por defecto*/
@@ -45,13 +47,13 @@ main {
   left: 200px;
   top: 100px;
   padding-left: 100px;
-  width: 1000px;
+  width: 1080px;
   height: 600px;
 }
 
 /*estilo de caja-texto*/
 
-.caja-texto {
+.cajatexto {
   width: 80%;
   height: 100%;
   border: none;
@@ -249,4 +251,10 @@ main {
   position: relative;
   top: 50px;
   right: 4px;
+}
+
+/*funcionalidad de estilo*/
+
+.ocultar {
+  display: none;
 }
